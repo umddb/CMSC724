@@ -147,7 +147,7 @@ where o.year = 2004;
 ```
 There are many interesting and useful functions on the "date" datatype. See [link](http://www.postgresql.org/docs/current/interactive/functions-datetime.html).
 
-- Write a query to add a new column called `country_id` to the IndividualMedals table (created during the assignment). 
+- Write a query to add a new column called `country_id` to the IndividualMedals table (created during the assignment, Question 2). 
 ```
 alter table IndividualMedals add country_id char(3);
 ```
