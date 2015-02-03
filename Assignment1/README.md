@@ -99,6 +99,9 @@ gold gets translated into usually 4, but upto 6-7 `medal` entries in the Results
 - If two players tie in an event, they are both awarded the same medal, and the next medal is skipped (ie., there are
 events without any silver medals, but two gold medals). This is more common in Gymnastics (the dataset does not contain 
 that data anyway, but does have a few cases like that).
+- Note that, there are instances (in the dataset) where two players appear to be tied (e.g., 'E132'). In that event, 
+the two players did have the same final score, but the tie was broken using information not provided in the dataset
+(number of tries for High Jump). This shouldn't have any effect on the assignment questions.
 - The `result` for a match is reported as a `float` number, and its interpretation is given in the corresponding
 `events` table. There are three types: `seconds` (for time), `points` (like in Decathlon), `meters` (like in long jump).
 
